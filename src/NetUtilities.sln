@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuerySorter", "QuerySorter\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuerySorter.Tests", "QuerySorter\QuerySorter.Tests\QuerySorter.Tests.csproj", "{BA16537F-6847-4B38-8D60-6A8D3D8FC94D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnumMapper", "EnumMapper", "{00F63A7E-D9C9-40F6-9E82-1BD46525E957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumMapper", "EnumMapper\EnumMapper\EnumMapper.csproj", "{ED824F6A-97CE-4361-9C88-9249942BBEFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumMapper.Tests", "EnumMapper\EnumMapper.Tests\EnumMapper.Tests.csproj", "{2D17CE49-FF98-4821-9A02-6D915DC02902}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +29,14 @@ Global
 		{BA16537F-6847-4B38-8D60-6A8D3D8FC94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA16537F-6847-4B38-8D60-6A8D3D8FC94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA16537F-6847-4B38-8D60-6A8D3D8FC94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED824F6A-97CE-4361-9C88-9249942BBEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED824F6A-97CE-4361-9C88-9249942BBEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED824F6A-97CE-4361-9C88-9249942BBEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED824F6A-97CE-4361-9C88-9249942BBEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D17CE49-FF98-4821-9A02-6D915DC02902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D17CE49-FF98-4821-9A02-6D915DC02902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D17CE49-FF98-4821-9A02-6D915DC02902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D17CE49-FF98-4821-9A02-6D915DC02902}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{33B28780-B916-4676-B9CC-CCE361823E22} = {FD84DDA8-AEC7-4712-B9AA-D59450B522F4}
 		{BA16537F-6847-4B38-8D60-6A8D3D8FC94D} = {FD84DDA8-AEC7-4712-B9AA-D59450B522F4}
+		{ED824F6A-97CE-4361-9C88-9249942BBEFB} = {00F63A7E-D9C9-40F6-9E82-1BD46525E957}
+		{2D17CE49-FF98-4821-9A02-6D915DC02902} = {00F63A7E-D9C9-40F6-9E82-1BD46525E957}
 	EndGlobalSection
 EndGlobal
