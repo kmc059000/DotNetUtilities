@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuerySorter", "QuerySorter\QuerySorter.csproj", "{33B28780-B916-4676-B9CC-CCE361823E22}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuerySorter", "QuerySorter", "{FD84DDA8-AEC7-4712-B9AA-D59450B522F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuerySorter.Tests", "QuerySorter.Tests\QuerySorter.Tests.csproj", "{BA16537F-6847-4B38-8D60-6A8D3D8FC94D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuerySorter", "QuerySorter\QuerySorter\QuerySorter.csproj", "{33B28780-B916-4676-B9CC-CCE361823E22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuerySorter.Tests", "QuerySorter\QuerySorter.Tests\QuerySorter.Tests.csproj", "{BA16537F-6847-4B38-8D60-6A8D3D8FC94D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33B28780-B916-4676-B9CC-CCE361823E22} = {FD84DDA8-AEC7-4712-B9AA-D59450B522F4}
+		{BA16537F-6847-4B38-8D60-6A8D3D8FC94D} = {FD84DDA8-AEC7-4712-B9AA-D59450B522F4}
 	EndGlobalSection
 EndGlobal
